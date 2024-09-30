@@ -1,0 +1,15 @@
+#wdt-frf-column-container .dropdown-menu > li > a,
+#wdt-frf-form-container .dropdown-menu > li > a {
+    white-space: normal !important;
+}
+
+#wdt-frf-column-container .btn-group.bootstrap-select .inner .text,
+#wdt-frf-form-container .btn-group.bootstrap-select .inner .text {
+    text-align: left !important;
+}
+
+#wdt-frf-column-container .bootstrap-select.btn-group .dropdown-toggle .filter-option,
+#wdt-frf-form-container .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    width: 98% !important;
+    text-overflow: ellipsis !important;
+}

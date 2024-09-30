@@ -1,0 +1,20 @@
+
+# BEGIN Forminator
+# Arahan (baris) antara "BEGIN Forminator" dan "END Forminator"
+# dihasilkan secara dinamis, dan hanya dapat dimodifikasi melalui filter WordPress.
+# Setiap perubahan pada arahan di antara penanda berikut akan ditimpa.
+# Disable parsing of PHP for some server configurations.
+<Files *>
+  SetHandler none
+  SetHandler default-handler
+  Options -ExecCGI
+  Options -Indexes
+  RemoveHandler .cgi .php .php3 .php4 .php5 .phtml .pl .py .pyc .pyo
+</Files>
+<IfModule mod_php5.c>
+  php_flag engine off
+</IfModule>
+<IfModule headers_module>
+  Header set X-Robots-Tag "noindex"
+</IfModule>
+# END Forminator

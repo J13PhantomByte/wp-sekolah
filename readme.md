@@ -4,7 +4,9 @@ Tugas Praktek webserver menggunakan Wordpress
 Website ini saya buat untuk tugas praktek saya, jika kalian ingin download saja file ini dan jalankan menggunakan local server. tentunya website ini sudah responsive ^^
 
 > wordpress : localhost/sekolahku/admin
+
 > username : admin
+
 > password : juan123
 
 

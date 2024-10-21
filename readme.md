@@ -1,4 +1,4 @@
-Tugas Praktek webserver menggunakan Wordpress
+Tugas Praktek webserver Paket 3 TKJ menggunakan Wordpress
 
 ### Sekolahku
 Website ini saya buat untuk tugas praktek saya, jika kalian ingin download saja file ini dan jalankan menggunakan local server. tentunya website ini sudah responsive ^^
